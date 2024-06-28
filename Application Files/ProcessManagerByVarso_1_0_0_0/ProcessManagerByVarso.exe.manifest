@@ -1,0 +1,75 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<asmv1:assembly xsi:schemaLocation="urn:schemas-microsoft-com:asm.v1 assembly.adaptive.xsd" manifestVersion="1.0" xmlns:asmv1="urn:schemas-microsoft-com:asm.v1" xmlns="urn:schemas-microsoft-com:asm.v2" xmlns:asmv2="urn:schemas-microsoft-com:asm.v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:co.v1="urn:schemas-microsoft-com:clickonce.v1" xmlns:asmv3="urn:schemas-microsoft-com:asm.v3" xmlns:dsig="http://www.w3.org/2000/09/xmldsig#" xmlns:co.v2="urn:schemas-microsoft-com:clickonce.v2">
+  <asmv1:assemblyIdentity name="ProcessManagerByVarso.exe" version="1.0.0.0" publicKeyToken="7babad6887c8905f" language="hu-HU" processorArchitecture="msil" type="win32" />
+  <description asmv2:iconFile="timer.ico" xmlns="urn:schemas-microsoft-com:asm.v1" />
+  <application />
+  <entryPoint>
+    <assemblyIdentity name="ProcessManagerByVarso" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+    <commandLine file="ProcessManagerByVarso.exe" parameters="" />
+  </entryPoint>
+  <trustInfo>
+    <security>
+      <applicationRequestMinimum>
+        <PermissionSet Unrestricted="true" ID="Custom" SameSite="site" />
+        <defaultAssemblyRequest permissionSetReference="Custom" />
+      </applicationRequestMinimum>
+      <requestedPrivileges xmlns="urn:schemas-microsoft-com:asm.v3">
+        <!--
+          UAC Manifest Options
+          If you want to change the Windows User Account Control level replace the
+          requestedExecutionLevel node with one of the following.
+
+        <requestedExecutionLevel  level="asInvoker" uiAccess="false" />
+        <requestedExecutionLevel  level="requireAdministrator" uiAccess="false" />
+        <requestedExecutionLevel  level="highestAvailable" uiAccess="false" />
+
+         If you want to utilize File and Registry Virtualization for backward
+         compatibility then delete the requestedExecutionLevel node.
+    -->
+        <requestedExecutionLevel level="asInvoker" uiAccess="false" />
+      </requestedPrivileges>
+    </security>
+  </trustInfo>
+  <dependency>
+    <dependentOS>
+      <osVersionInfo>
+        <os majorVersion="5" minorVersion="1" buildNumber="2600" servicePackMajor="0" />
+      </osVersionInfo>
+    </dependentOS>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="preRequisite" allowDelayedBinding="true">
+      <assemblyIdentity name="Microsoft.Windows.CommonLanguageRuntime" version="4.0.30319.0" />
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="ProcessManagerByVarso.exe" size="309680">
+      <assemblyIdentity name="ProcessManagerByVarso" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>77hJfIuNa0pAnoPXku048GxsB5F26P9ssbZ+leHbspI=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <file name="ProcessManagerByVarso.exe.config" size="189">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>R+Wg8QGvQVHX8T0ta/qbhH1bXkqY0fRnS3wBV3J0bN8=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="timer.ico" size="120757">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>uIbeOVbHTG+N2t2ouB7y/+QMbNnFIklaYhARPYPB3Qc=</dsig:DigestValue>
+    </hash>
+  </file>
+<publisherIdentity name="CN=VARSOPC\varso" issuerKeyHash="bbbb14b4b5ad02a8f2fa7adb0863a00809dbbc7a" /><Signature Id="StrongNameSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha256" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" /><DigestValue>4QEz0DdZOQUp0j7ynrmz73bEoi9oiLxXdUQylrGE/kw=</DigestValue></Reference></SignedInfo><SignatureValue>NrdB9EerP/opmtnN4E95dHfNOp+cW38HwK2g5z3xLazBKYt+hlPJrNunlexkllLS+UlXhf5HT1mVtqyn6V+qzxC3mX5L6RGVksPmbEytmLB3wSY5fwzS8U5jQdDDxiJtXodWyd2Q//vperfWuyOoKZQgDBfjDryV/AyZ+PG16nA=</SignatureValue><KeyInfo Id="StrongNameKeyInfo"><KeyValue><RSAKeyValue><Modulus>8xioCmXQUKq06Ay0TZPnuQjEtoIeJCv2Vn7LbYxPhwBeTCTxIz+LjJ+SmzbLW83Zpeb+ELh9BnIAwKFgWbK9+5En0+74yTL47LEOT5mer2Vj2B9rS/uzeysk71p2hO6KADLzYB4FmDQry9aMNGbggbFOVjNyqvdvOMv0iY5XP2U=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><msrel:RelData xmlns:msrel="http://schemas.microsoft.com/windows/rel/2005/reldata"><r:license xmlns:r="urn:mpeg:mpeg21:2003:01-REL-R-NS" xmlns:as="http://schemas.microsoft.com/windows/pki/2005/Authenticode"><r:grant><as:ManifestInformation Hash="4cfe84b19632447557bc88682fa2c476efb3b99ef23ed22905395937d03301e1" Description="" Url=""><as:assemblyIdentity name="ProcessManagerByVarso.exe" version="1.0.0.0" publicKeyToken="7babad6887c8905f" language="hu-HU" processorArchitecture="msil" type="win32" /></as:ManifestInformation><as:SignedBy /><as:AuthenticodePublisher><as:X509SubjectName>CN=VARSOPC\varso</as:X509SubjectName></as:AuthenticodePublisher></r:grant><r:issuer><Signature Id="AuthenticodeSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha256" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" /><DigestValue>baQppaCMRlbxozxMJSIlrbwfMGuAnZtTEWfGxASLgT4=</DigestValue></Reference></SignedInfo><SignatureValue>BNI0QmeQAxItf8jv7QslNBQc7GWo1U7qp4r0JjrIBPjQ3U0hh1K6U9NVuAc59ybGRmRMLDj+kPBNURH8U2xVFxW4jzZIcv5oiSdmNfRGqfU+1xBv5vUtly/iHMcQgXu7cHameqS+uM9MwqFu+94AFwtcevWSKH+u+KffQEksKE0=</SignatureValue><KeyInfo><KeyValue><RSAKeyValue><Modulus>8xioCmXQUKq06Ay0TZPnuQjEtoIeJCv2Vn7LbYxPhwBeTCTxIz+LjJ+SmzbLW83Zpeb+ELh9BnIAwKFgWbK9+5En0+74yTL47LEOT5mer2Vj2B9rS/uzeysk71p2hO6KADLzYB4FmDQry9aMNGbggbFOVjNyqvdvOMv0iY5XP2U=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><X509Data><X509Certificate>MIIBzTCCATagAwIBAgIQShfDtRkYHIJKyDgjDoPGwzANBgkqhkiG9w0BAQsFADAlMSMwIQYDVQQDHhoAVgBBAFIAUwBPAFAAQwBcAHYAYQByAHMAbzAeFw0yMzA1MTYxNzU0MDFaFw0yNDA1MTUyMzU0MDFaMCUxIzAhBgNVBAMeGgBWAEEAUgBTAE8AUABDAFwAdgBhAHIAcwBvMIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQDzGKgKZdBQqrToDLRNk+e5CMS2gh4kK/ZWfsttjE+HAF5MJPEjP4uMn5KbNstbzdml5v4QuH0GcgDAoWBZsr37kSfT7vjJMvjssQ5PmZ6vZWPYH2tL+7N7KyTvWnaE7ooAMvNgHgWYNCvL1ow0ZuCBsU5WM3Kq9284y/SJjlc/ZQIDAQABMA0GCSqGSIb3DQEBCwUAA4GBAGVLZPChQh8J8sCKBlh2+Mc+5uby66x9jQ9lfv0Qme83fmrQmIEVJxaTbs0mqebv8tbG+Afhdx4801ZI1H5pkjteO0M3o8xGg/jnKNIA/WsHKGkIX4TWzGN61Q+YGbw5XUBVX/r68d8O1muu3I9anI4Zb+yDT3+3xCWPNylp/TYI</X509Certificate></X509Data></KeyInfo></Signature></r:issuer></r:license></msrel:RelData></KeyInfo></Signature></asmv1:assembly>
